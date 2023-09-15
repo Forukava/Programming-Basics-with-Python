@@ -1,18 +1,17 @@
 import sys
-
-n = int(input())
 sum = 0
 max = -sys.maxsize
+n = int(input())
 
-
-for i in range(0, n):
+for i in range(n):
     num = int(input())
     if num > max:
         max = num
-        sum += num
-    if max == sum - max:
-        print("Yes")
-        print(f"Sum={sum}")
-    else:
-        print("No")
-        print(f"Diff = {abs(max - sum)}")
+    sum += num
+rest_sum = sum - max
+if max == rest_sum:
+    print("Yes")
+    print(f"Sum = {max}")
+else:
+    diff = abs(max - rest_sum)
+    print(f"No\nDiff = {diff}")
