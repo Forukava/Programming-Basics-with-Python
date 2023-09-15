@@ -1,9 +1,9 @@
 import sys
 
 n = int(input())
-
-max = -sys.maxsize
 sum = 0
+max = -sys.maxsize
+
 
 for i in range(0, n):
     num = int(input())
