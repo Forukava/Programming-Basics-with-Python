@@ -1,8 +1,5 @@
-print("What is your age: ")
 age = int(input())
-print("How much cost landuary: ")
 price_l = float(input())
-print("price for one toy: ")
 one_toy = int(input())
 
 toy = 0
