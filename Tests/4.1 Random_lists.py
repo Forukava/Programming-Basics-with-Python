@@ -1,5 +1,5 @@
 import random
-a = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+a = ["Amira", "Baba", "Dedko", "Micho", "Pusy"]
 
 for i in range(len(a)):
     print(random.choice(a))
