@@ -7,7 +7,6 @@ lettersa = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 numbersa = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbolsa = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
-
 password_lists = []
 for _ in range(1, letters + 1):
     password_lists += random.choice(lettersa)
