@@ -1,6 +1,5 @@
 coin = float(input())
 current_count = 0
-current_remainder = 0
 current_1 = 0
 current_2 = 0
 current_50 = 0
