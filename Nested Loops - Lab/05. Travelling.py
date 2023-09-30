@@ -9,4 +9,4 @@ while True:
         current_sum = float(input())
         money += current_sum
 
-    print(f"Going to {city}")
+    print(f"Going to {city}!")
