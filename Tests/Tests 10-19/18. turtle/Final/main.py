@@ -11,7 +11,7 @@ color_list = [(202, 164, 110), (240, 245, 241), (236, 239, 243), (149, 75, 50),
               (19, 86, 89), (82, 148, 129), (147, 17, 19), (27, 68, 102),
               (12, 70, 64), (107, 127, 153), (176, 192, 208), (168, 99, 102)]
 
-tim.dot(20, random.choice(color_list))
+tim.dot(22, random.choice(color_list))
 
 screen = turtle_module.Screen()
 screen.exitonclick()
